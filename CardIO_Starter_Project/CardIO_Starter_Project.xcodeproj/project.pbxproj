@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9B8D12C1CCF606400A50571 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B8D12B1CCF606400A50571 /* AppDelegate.swift */; };
+		A9B8D1311CCF606400A50571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B8D12F1CCF606400A50571 /* Main.storyboard */; };
+		A9B8D1331CCF606400A50571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9B8D1321CCF606400A50571 /* Assets.xcassets */; };
+		A9B8D1361CCF606400A50571 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B8D1341CCF606400A50571 /* LaunchScreen.storyboard */; };
+		A9B8D1411CCF606400A50571 /* CardIO_Starter_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B8D1401CCF606400A50571 /* CardIO_Starter_ProjectTests.swift */; };
+		A9B8D14C1CCF606500A50571 /* CardIO_Starter_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B8D14B1CCF606500A50571 /* CardIO_Starter_ProjectUITests.swift */; };
+		A9B8D15A1CCF609A00A50571 /* ReadyMadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B8D1591CCF609A00A50571 /* ReadyMadeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9B8D13D1CCF606400A50571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9B8D1201CCF606300A50571 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9B8D1271CCF606300A50571;
+			remoteInfo = CardIO_Starter_Project;
+		};
+		A9B8D1481CCF606400A50571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9B8D1201CCF606300A50571 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9B8D1271CCF606300A50571;
+			remoteInfo = CardIO_Starter_Project;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9B8D1281CCF606400A50571 /* CardIO_Starter_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardIO_Starter_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9B8D12B1CCF606400A50571 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9B8D1301CCF606400A50571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9B8D1321CCF606400A50571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9B8D1351CCF606400A50571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9B8D1371CCF606400A50571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9B8D13C1CCF606400A50571 /* CardIO_Starter_ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardIO_Starter_ProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9B8D1401CCF606400A50571 /* CardIO_Starter_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardIO_Starter_ProjectTests.swift; sourceTree = "<group>"; };
+		A9B8D1421CCF606400A50571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9B8D1471CCF606400A50571 /* CardIO_Starter_ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardIO_Starter_ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9B8D14B1CCF606500A50571 /* CardIO_Starter_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardIO_Starter_ProjectUITests.swift; sourceTree = "<group>"; };
+		A9B8D14D1CCF606500A50571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9B8D1591CCF609A00A50571 /* ReadyMadeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadyMadeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9B8D1251CCF606300A50571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B8D1391CCF606400A50571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B8D1441CCF606400A50571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9B8D11F1CCF606300A50571 = {
+			isa = PBXGroup;
+			children = (
+				A9B8D12A1CCF606400A50571 /* CardIO_Starter_Project */,
+				A9B8D13F1CCF606400A50571 /* CardIO_Starter_ProjectTests */,
+				A9B8D14A1CCF606500A50571 /* CardIO_Starter_ProjectUITests */,
+				A9B8D1291CCF606400A50571 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9B8D1291CCF606400A50571 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9B8D1281CCF606400A50571 /* CardIO_Starter_Project.app */,
+				A9B8D13C1CCF606400A50571 /* CardIO_Starter_ProjectTests.xctest */,
+				A9B8D1471CCF606400A50571 /* CardIO_Starter_ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9B8D12A1CCF606400A50571 /* CardIO_Starter_Project */ = {
+			isa = PBXGroup;
+			children = (
+				A9B8D12B1CCF606400A50571 /* AppDelegate.swift */,
+				A9B8D1591CCF609A00A50571 /* ReadyMadeViewController.swift */,
+				A9B8D12F1CCF606400A50571 /* Main.storyboard */,
+				A9B8D1321CCF606400A50571 /* Assets.xcassets */,
+				A9B8D1341CCF606400A50571 /* LaunchScreen.storyboard */,
+				A9B8D1371CCF606400A50571 /* Info.plist */,
+			);
+			path = CardIO_Starter_Project;
+			sourceTree = "<group>";
+		};
+		A9B8D13F1CCF606400A50571 /* CardIO_Starter_ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9B8D1401CCF606400A50571 /* CardIO_Starter_ProjectTests.swift */,
+				A9B8D1421CCF606400A50571 /* Info.plist */,
+			);
+			path = CardIO_Starter_ProjectTests;
+			sourceTree = "<group>";
+		};
+		A9B8D14A1CCF606500A50571 /* CardIO_Starter_ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9B8D14B1CCF606500A50571 /* CardIO_Starter_ProjectUITests.swift */,
+				A9B8D14D1CCF606500A50571 /* Info.plist */,
+			);
+			path = CardIO_Starter_ProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9B8D1271CCF606300A50571 /* CardIO_Starter_Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9B8D1501CCF606500A50571 /* Build configuration list for PBXNativeTarget "CardIO_Starter_Project" */;
+			buildPhases = (
+				A9B8D1241CCF606300A50571 /* Sources */,
+				A9B8D1251CCF606300A50571 /* Frameworks */,
+				A9B8D1261CCF606300A50571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardIO_Starter_Project;
+			productName = CardIO_Starter_Project;
+			productReference = A9B8D1281CCF606400A50571 /* CardIO_Starter_Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9B8D13B1CCF606400A50571 /* CardIO_Starter_ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9B8D1531CCF606500A50571 /* Build configuration list for PBXNativeTarget "CardIO_Starter_ProjectTests" */;
+			buildPhases = (
+				A9B8D1381CCF606400A50571 /* Sources */,
+				A9B8D1391CCF606400A50571 /* Frameworks */,
+				A9B8D13A1CCF606400A50571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9B8D13E1CCF606400A50571 /* PBXTargetDependency */,
+			);
+			name = CardIO_Starter_ProjectTests;
+			productName = CardIO_Starter_ProjectTests;
+			productReference = A9B8D13C1CCF606400A50571 /* CardIO_Starter_ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9B8D1461CCF606400A50571 /* CardIO_Starter_ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9B8D1561CCF606500A50571 /* Build configuration list for PBXNativeTarget "CardIO_Starter_ProjectUITests" */;
+			buildPhases = (
+				A9B8D1431CCF606400A50571 /* Sources */,
+				A9B8D1441CCF606400A50571 /* Frameworks */,
+				A9B8D1451CCF606400A50571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9B8D1491CCF606400A50571 /* PBXTargetDependency */,
+			);
+			name = CardIO_Starter_ProjectUITests;
+			productName = CardIO_Starter_ProjectUITests;
+			productReference = A9B8D1471CCF606400A50571 /* CardIO_Starter_ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9B8D1201CCF606300A50571 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mobisoft Infotech";
+				TargetAttributes = {
+					A9B8D1271CCF606300A50571 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A9B8D13B1CCF606400A50571 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A9B8D1271CCF606300A50571;
+					};
+					A9B8D1461CCF606400A50571 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A9B8D1271CCF606300A50571;
+					};
+				};
+			};
+			buildConfigurationList = A9B8D1231CCF606300A50571 /* Build configuration list for PBXProject "CardIO_Starter_Project" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9B8D11F1CCF606300A50571;
+			productRefGroup = A9B8D1291CCF606400A50571 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9B8D1271CCF606300A50571 /* CardIO_Starter_Project */,
+				A9B8D13B1CCF606400A50571 /* CardIO_Starter_ProjectTests */,
+				A9B8D1461CCF606400A50571 /* CardIO_Starter_ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9B8D1261CCF606300A50571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B8D1361CCF606400A50571 /* LaunchScreen.storyboard in Resources */,
+				A9B8D1331CCF606400A50571 /* Assets.xcassets in Resources */,
+				A9B8D1311CCF606400A50571 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B8D13A1CCF606400A50571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B8D1451CCF606400A50571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9B8D1241CCF606300A50571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B8D12C1CCF606400A50571 /* AppDelegate.swift in Sources */,
+				A9B8D15A1CCF609A00A50571 /* ReadyMadeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B8D1381CCF606400A50571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B8D1411CCF606400A50571 /* CardIO_Starter_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B8D1431CCF606400A50571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B8D14C1CCF606500A50571 /* CardIO_Starter_ProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9B8D13E1CCF606400A50571 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9B8D1271CCF606300A50571 /* CardIO_Starter_Project */;
+			targetProxy = A9B8D13D1CCF606400A50571 /* PBXContainerItemProxy */;
+		};
+		A9B8D1491CCF606400A50571 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9B8D1271CCF606300A50571 /* CardIO_Starter_Project */;
+			targetProxy = A9B8D1481CCF606400A50571 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9B8D12F1CCF606400A50571 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9B8D1301CCF606400A50571 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9B8D1341CCF606400A50571 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9B8D1351CCF606400A50571 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9B8D14E1CCF606500A50571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9B8D14F1CCF606500A50571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9B8D1511CCF606500A50571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CardIO_Starter_Project/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobisoft.CardIO-Starter-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9B8D1521CCF606500A50571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CardIO_Starter_Project/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobisoft.CardIO-Starter-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A9B8D1541CCF606500A50571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CardIO_Starter_ProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobisoft.CardIO-Starter-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardIO_Starter_Project.app/CardIO_Starter_Project";
+			};
+			name = Debug;
+		};
+		A9B8D1551CCF606500A50571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CardIO_Starter_ProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobisoft.CardIO-Starter-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardIO_Starter_Project.app/CardIO_Starter_Project";
+			};
+			name = Release;
+		};
+		A9B8D1571CCF606500A50571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CardIO_Starter_ProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobisoft.CardIO-Starter-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CardIO_Starter_Project;
+			};
+			name = Debug;
+		};
+		A9B8D1581CCF606500A50571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CardIO_Starter_ProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobisoft.CardIO-Starter-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CardIO_Starter_Project;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9B8D1231CCF606300A50571 /* Build configuration list for PBXProject "CardIO_Starter_Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B8D14E1CCF606500A50571 /* Debug */,
+				A9B8D14F1CCF606500A50571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9B8D1501CCF606500A50571 /* Build configuration list for PBXNativeTarget "CardIO_Starter_Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B8D1511CCF606500A50571 /* Debug */,
+				A9B8D1521CCF606500A50571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9B8D1531CCF606500A50571 /* Build configuration list for PBXNativeTarget "CardIO_Starter_ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B8D1541CCF606500A50571 /* Debug */,
+				A9B8D1551CCF606500A50571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9B8D1561CCF606500A50571 /* Build configuration list for PBXNativeTarget "CardIO_Starter_ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B8D1571CCF606500A50571 /* Debug */,
+				A9B8D1581CCF606500A50571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9B8D1201CCF606300A50571 /* Project object */;
+}
